@@ -1,0 +1,104 @@
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 400;
+  color: #434455;
+  line-height: 1.5;
+}
+
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 1.17;
+}
+
+.logo-header {
+    color: #2e2f42;
+}
+
+.logo-footer {
+    color: #F4F4FD;
+}
+
+.web {
+  color: #4d5ae5;
+}
+
+.nav-list,
+.contact-list,
+.features-list,
+.team-list,
+.portfolio-list {
+  list-style-type: none;
+}
+
+.nav-link {
+  color: #2e2f42;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link:active,
+.contact-link:active,
+.contact-link:hover,
+.contact-link:focus {
+  color: #404bbf;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.hero-title {
+  /*color: #FFFFFF;*/
+  font-weight: 700;
+  font-size: 56px;
+  text-align: center;
+  line-height: 1.07;
+}
+
+.order-button {
+  color: #fff;
+  font-weight: 500;
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+
+.order-button:hover {
+  background-color: #404bbf;
+}
+
+.feature-title, .team-member-name, .portfolio-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2E2F42;
+}
+
+.team-title, .portfolio-main-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    color: #2E2F42;
+    text-align: center;
+}
+
+.portfolio-image {
+    width: 360px;
+    height: 300px;
+}
+
+.team-member-photo {
+    width: 264px;
+    height: 260px;
+}
+
+.footer-description {
+    color: #F4F4FD;
+}
+
+

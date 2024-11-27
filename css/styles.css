@@ -56,6 +56,7 @@ body {
 
 .hero {
   background-color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 
 .hero-title {
@@ -64,6 +65,7 @@ body {
   font-size: 56px;
   text-align: center;
   line-height: 1.07;
+
 }
 
 .order-button {
@@ -80,6 +82,15 @@ body {
 .order-button:focus {
   background-color: #404bbf;
 }
+
+.feature-title,
+.team-title,
+.team-member-name,
+.portfolio-main-title,
+.portfolio-title {
+  letter-spacing: 0.02em;
+}
+
 
 .feature-title,
 .team-member-name,

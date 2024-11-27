@@ -1,29 +1,34 @@
 body {
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: #434455;
   line-height: 1.5;
+  background-color: #FFFFFF;
+  letter-spacing: 0.02em;
 }
 
 .logo {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
   font-size: 18px;
   line-height: 1.17;
-}
-
-.logo-header {
-    color: #2e2f42;
-}
-
-.logo-footer {
-    color: #F4F4FD;
-}
-
-.web {
+  letter-spacing: 0.03em;
   color: #4d5ae5;
+}
+
+.span-header {
+  color: #2e2f42;
+}
+
+.contact-info {
+  font-style: normal;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: inherit;
 }
 
 .nav-list,
@@ -42,15 +47,15 @@ body {
 
 .nav-link:hover,
 .nav-link:active,
+.nav-link:focus,
 .contact-link:active,
 .contact-link:hover,
 .contact-link:focus {
   color: #404bbf;
 }
 
-.contact-link {
-  text-decoration: none;
-  color: inherit;
+.hero {
+  background-color: #2e2f42;
 }
 
 .hero-title {
@@ -66,39 +71,51 @@ body {
   font-weight: 500;
   background-color: #4d5ae5;
   cursor: pointer;
+  font-family: inherit;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
-.order-button:hover {
+.order-button:hover,
+.order-button:focus {
   background-color: #404bbf;
 }
 
-.feature-title, .team-member-name, .portfolio-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    color: #2E2F42;
+.feature-title,
+.team-member-name,
+.portfolio-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2E2F42;
 }
 
-.team-title, .portfolio-main-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.1;
-    color: #2E2F42;
-    text-align: center;
+.team {
+  background-color: #F4F4FD;
 }
 
-.portfolio-image {
-    width: 360px;
-    height: 300px;
+.team-title,
+.portfolio-main-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  color: #2E2F42;
+  text-align: center;
+  text-transform: capitalize
 }
 
-.team-member-photo {
-    width: 264px;
-    height: 260px;
+.team-member {
+  background-color: #FFFFFF;
+}
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.span-footer {
+  color: #F4F4FD;
 }
 
 .footer-description {
-    color: #F4F4FD;
+  color: #F4F4FD;
 }
-
-
